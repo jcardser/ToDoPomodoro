@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css2?family=Righteous&family=Work+Sans:ital,wght@0,100;0,200;0,300;0,400;0,800;1,400&display=swap');
+body {
+    font-family: 'Righteous';
+    background: #1e2326;
+    margin: 0;
+    /* Evita márgenes predeterminados del cuerpo */
+}
+
+.background-layer {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: #1e2326;
+}
+
+.marquee {
+    font-size: 16px;
+    /* Ajusta el tamaño de la fuente para pantallas más pequeñas */
+    color: #dfffd7;
+    text-decoration: none;
+    text-align: center;
+}
+
+#app {
+    background-color: #ffffff;
+    max-width: 500px;
+    /* Utiliza porcentajes para adaptar el ancho */
+    margin: 0 auto;
+    border: solid 1px #ccc;
+    padding: 15px;
+    border-radius: 7px;
+    opacity: .8;
+    text-align: center;
+}
+
+#time {
+    text-align: center;
+    padding: 10px 0;
+    /* Ajusta el relleno */
+}
+
+#time #value {
+    font-size: 40px;
+    /* Ajusta el tamaño de la fuente para pantallas más pequeñas */
+    font-weight: bolder;
+}
+
+.form {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    /* Ajusta el margen superior */
+}
+
+input[type="text"] {
+    padding: 10px;
+    border: solid 1px #ccc;
+    width: 300px;
+    font-family: 'Righteous';
+    font-size: 25px;
+}
+
+button,
+input[type="submit"] {
+    border: none;
+    background-color: #1CB698;
+    color: white;
+    padding: 15px;
+    border-radius: 5px;
+    font-family: 'Righteous';
+    /* Agrega un margen izquierdo para separar del input */
+}
+
+#tasks {
+    display: flexbox;
+    flex-direction: column;
+    gap: 10px;
+    margin-top: 10px;
+    align-items: center;
+    font-size: 15px;
+    font-family: 'Righteous';
+    /* Ajusta el tamaño de la fuente para pantallas más pequeñas */
+}
+
+.task {
+    display: flexbox;
+    gap: 10px;
+    align-items: center;
+    font-family: 'Righteous';
+}
+
+.task .completed {
+    display: flexbox;
+    align-items: center;
+    gap: 10px;
+    text-align: center;
+    font-family: 'Righteous';
+}
+
+.done {
+    display: inline-block;
+    padding: 5px;
+    background-color: #32c20e;
+    border: none;
+    color: white;
+    padding: 15px;
+    border-radius: 5px;
+    font-weight: bolder;
+    margin-bottom: 10px;
+    font-family: 'Righteous';
+    /* Agrega un margen inferior */
+}
